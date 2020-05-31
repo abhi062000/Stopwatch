@@ -1,0 +1,91 @@
+body{
+    background: url('https://images.pexels.com/photos/7477/night-trees-stars.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center center fixed;
+    background-size: cover;
+    color: #fff;
+    overflow-x: hidden;
+    
+}
+#header{
+    text-align: center;    
+}
+#header h2{    
+    font-size: 5rem;
+}
+
+/* lap */
+#lap{
+    text-align: right;
+    font-size: 2rem;
+}
+
+/* time */
+#time{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+/* control */
+#controlContainer{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.control{
+    /* text-align: center; */
+    margin: auto;
+    width: 8vw;
+    height: 8vh;
+    background-color: orange;
+    line-height: 8vh;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.control:active{
+    background-color: #fff;
+    color: orange;
+}
+
+/* lapsdiv */
+#laps{
+    width: 80%;
+    margin: auto;
+    height: 15rem;
+    overflow-y: auto;
+
+}
+
+/* script files class */
+.lap{    
+    height: 50px;
+    border-bottom: 1px solid white;
+}
+.laptimetitle{
+    font-size: 1.6rem;
+    float: left;
+
+}
+.laptime{
+    font-size: 2rem;
+    float: right;
+}
+
+/* media queries */
+@media (max-width:768px){
+    #controlContainer{
+        margin-bottom: 3rem;
+        text-align: center;
+}
+.control{
+    /* text-align: center; */
+        margin:0.5rem auto;
+        width: 12vw;
+        height: 8vh;
+        background-color: orange;
+        line-height: 8vh;
+        border-radius:50%;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+}
+}

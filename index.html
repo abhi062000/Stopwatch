@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boottsrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Stopwatch App</title>
+</head>
+
+<body>
+    <div class="container-fluid" id="header">
+        <h2>Stopwatch</h2>
+    </div>
+
+    <!-- lap -->
+    <div class="container-fluid" id="lap">
+        <div>
+            <span id="lapminute">00</span>:<span id="lapsecond">00</span>:<span id="lapcentisecond">00</span>
+        </div>
+    </div>
+
+    <!-- time -->
+    <div class="container-fluid" id="time">
+        <div>
+            <span id="timeminute">00</span>:<span id="timesecond">00</span>:<span id="timecentisecond">00</span>
+        </div>
+    </div>
+
+    <!-- controls -->
+    <div id="controlContainer" class="row">
+        <div class="col-xs-2 offset-xs-4 col-sm-2 offset-sm-4">
+            <div id="startButton" class="control">Start</div>
+            <div id="stopButton" class="control">Stop</div>
+            <div id="resumeButton" class="control">Resume</div>
+        </div>
+        <div class="col-xs-2 col-sm-2">
+            <div id="lapButton" class="control">Lap</div>
+            <div id="resetButton" class="control">Reset</div>
+        </div>
+
+    </div>
+
+    <!-- lapsdiv -->
+    <div class="container-fluid" id="laps">
+
+    </div>
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
